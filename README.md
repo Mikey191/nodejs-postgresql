@@ -77,7 +77,7 @@ const pool = new Pool({
 4.	Вводим пароль от пользователя. Команда **\l** покажет список существующих баз данных.
 5.	Создать новую БД node_postgres_practic **(create database node_postgres_practic)**.
 6.	Подключаемся к Базе Данных **(\connect node_postgres_practic)**. Командой **\dt** мы можем посмотреть существующие в БД таблицы.
-7.	Переключаем кодировку на 1251 **(psql \! chcp 1251)**.
+7.	Переключаем кодировку на 1251 **`(psql \! chcp 1251)`**.
 8.	Теперь же мы можем добавить в параметры **pool database**: "node_postgres_practic".
 ```javascript
 const pool = new Pool({
